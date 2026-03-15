@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebijakan Privasi - MYData: Laporan Keuangan</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f7f6;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 25px; }
+        p, li { margin-bottom: 15px; }
+        .highlight { background-color: #e8f4fd; padding: 15px; border-left: 5px solid #3498db; font-style: italic; }
+        footer { text-align: center; margin-top: 30px; font-size: 0.9em; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Kebijakan Privasi</h1>
+    <p><strong>Aplikasi:</strong> Personal: Laporan Keuangan</p>
+    <p><strong>Terakhir Diperbarui:</strong> 16 Maret 2026</p>
+
+    <p>Selamat datang di <strong>Personal: Laporan Keuangan</strong>. Kami sangat menghargai privasi Anda dan berkomitmen untuk melindungi informasi keuangan Anda secara aman dan transparan.</p>
+
+    <div class="highlight">
+        Penting: Aplikasi ini dirancang dengan prinsip privasi utama. Kami tidak mengumpulkan atau menyimpan data transaksi keuangan Anda di server kami. Seluruh data transaksi adalah hak dan milik penuh pengguna.
+    </div>
+
+    <h2>1. Informasi yang Kami Kumpulkan</h2>
+    <p>Dalam menjalankan fungsinya, aplikasi dapat mengakses atau memproses jenis informasi berikut:</p>
+    <ul>
+        <li><strong>Data Transaksi (Lokal):</strong> Catatan pemasukan, pengeluaran, piutang, dan hutang yang Anda input. Data ini disimpan <strong>hanya di dalam memori perangkat Anda</strong>.</li>
+        <li><strong>Informasi Identitas:</strong> Alamat email digunakan untuk keperluan login Google dan sinkronisasi cadangan.</li>
+        <li><strong>Informasi Teknis:</strong> ID Perangkat (Device ID), ID Iklan (Advertising ID), dan log performa (Crash logs) untuk memastikan aplikasi berjalan stabil.</li>
+    </ul>
+
+    <h2>2. Penggunaan dan Penyimpanan Data</h2>
+    <ul>
+        <li><strong>Penyimpanan Lokal:</strong> Seluruh data keuangan Anda bersifat privat dan tetap berada di perangkat Anda. Kami tidak memiliki akses untuk melihat atau membaca data transaksi tersebut.</li>
+        <li><strong>Fitur Cadangan (Backup):</strong> Jika Anda mengaktifkan fitur Backup, data akan dikirim ke akun <strong>Google Drive pribadi</strong> Anda menggunakan enkripsi HTTPS. Data tersebut disimpan di ruang penyimpanan cloud milik Anda sendiri, bukan di server kami.</li>
+        <li><strong>Layanan Iklan:</strong> Kami menggunakan Google AdMob untuk menampilkan iklan guna mendukung pengembangan aplikasi.</li>
+    </ul>
+
+    <h2>3. Keamanan Informasi</h2>
+    <p>Kami menerapkan standar keamanan tinggi:</p>
+    <ul>
+        <li><strong>Enkripsi saat Transit:</strong> Semua transmisi data (seperti proses backup atau pelaporan error) dilakukan melalui koneksi terenkripsi <strong>HTTPS/TLS</strong> yang aman.</li>
+        <li><strong>Kontrol Pengguna:</strong> Anda memiliki kendali penuh untuk menghapus seluruh data di aplikasi maupun file cadangan di Google Drive kapan saja.</li>
+    </ul>
+
+    <h2>4. Layanan Pihak Ketiga</h2>
+    <p>Aplikasi ini berinteraksi dengan layanan resmi dari Google untuk menunjang fungsionalitas:</p>
+    <ul>
+        <li><strong>Google Play Services & Drive API:</strong> Untuk manajemen akun dan backup.</li>
+        <li><strong>Google AdMob:</strong> Untuk penayangan iklan yang relevan.</li>
+        <li><strong>Firebase Crashlytics:</strong> Untuk analisis kerusakan aplikasi secara anonim.</li>
+    </ul>
+
+    <h2>5. Kontak Kami</h2>
+    <p>Jika Anda memiliki pertanyaan mengenai kebijakan privasi ini, silakan hubungi kami di:</p>
+    <p><strong>Email:</strong> nanda.sitepu@gmail.com</p>
+</div>
+
+<footer>
+    &copy; 2026 MYData.id Team. Hak Cipta Dilindungi.
+</footer>
+
+</body>
+</html>
