@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Kawal Desa</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --primary: #000000;
+            --accent: #FFD600; /* Kuning Khas Desa */
+            --danger: #FF3D00;
+            --card-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 4px solid var(--primary);
+            padding: 40px;
+            box-shadow: 12px 12px 0px var(--primary);
+            background: white;
+        }
+
+        header {
+            border-bottom: 4px solid var(--primary);
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            margin: 0;
+            text-transform: uppercase;
+            line-height: 1;
+        }
+
+        .badge {
+            background: var(--accent);
+            padding: 5px 15px;
+            display: inline-block;
+            font-weight: 900;
+            border: 2px solid var(--primary);
+            margin-top: 10px;
+            text-transform: uppercase;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            background: var(--primary);
+            color: white;
+            display: inline-block;
+            padding: 5px 15px;
+            margin-top: 40px;
+        }
+
+        p, li {
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .delete-section {
+            border: 4px solid var(--danger);
+            padding: 20px;
+            margin-top: 40px;
+            background: rgba(255, 61, 0, 0.05);
+        }
+
+        .delete-section h2 {
+            background: var(--danger);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 25px;
+            background: var(--accent);
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 900;
+            border: 3px solid var(--primary);
+            box-shadow: 4px 4px 0px var(--primary);
+            margin-top: 20px;
+            transition: 0.2s;
+        }
+
+        .btn:active {
+            box-shadow: 0px 0px 0px var(--primary);
+            transform: translate(4px, 4px);
+        }
+
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-weight: 900;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 20px; }
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Kebijakan<br>Privasi</h1>
+            <div class="badge">Aplikasi Kawal Desa</div>
+            <p style="margin-top: 20px;">Terakhir diperbarui: 22 April 2026</p>
+        </header>
+
+        <section>
+            <p>Kawal Desa berkomitmen untuk melindungi privasi warga dan pengguna. Kebijakan ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan menjaga data Anda dalam rangka transparansi publik.</p>
+            
+            <h2>1. Data yang Dikumpulkan</h2>
+            <ul>
+                <li><strong>Data Identitas:</strong> NIK (hanya untuk verifikasi), Nama, dan Wilayah Desa.</li>
+                <li><strong>Data Interaksi:</strong> Laporan pengaduan, partisipasi UMKM, dan riwayat akses laporan desa.</li>
+                <li><strong>Data Perangkat:</strong> Alamat IP dan informasi teknis perangkat demi keamanan sistem.</li>
+            </ul>
+
+            <h2>2. Penggunaan Data</h2>
+            <p>Data yang dikumpulkan digunakan semata-mata untuk:</p>
+            <ul>
+                <li>Memverifikasi identitas pelapor dalam fitur pengaduan warga.</li>
+                <li>Menyediakan data statistik pembangunan desa bagi aparat dan publik.</li>
+                <li>Keperluan pengawasan intern pemerintah (APIP) dalam mencegah penyalahgunaan dana desa.</li>
+            </ul>
+
+            <div class="delete-section">
+                <h2>3. Penghapusan Data</h2>
+                <p>Kami menghormati hak Anda atas data pribadi. Anda dapat meminta penghapusan akun dan data terkait kapan saja dengan ketentuan sebagai berikut:</p>
+                <ul>
+                    <li><strong>Proses Mandiri:</strong> Melalui menu "Pengaturan Profil" > "Hapus Akun" di dalam aplikasi.</li>
+                    <li><strong>Permintaan Manual:</strong> Mengirimkan email ke <strong>admin@mydata.id</strong> dengan subjek "Penghapusan Data - Kawal Desa".</li>
+                    <li><strong>Waktu Proses:</strong> Data akan dihapus secara permanen dari server aktif kami dalam waktu 1x24 jam setelah verifikasi.</li>
+                </ul>
+                <p><em>Catatan: Data laporan keuangan atau pengaduan yang sudah masuk dalam tahap audit APIP tidak dapat dihapus karena merupakan bagian dari catatan resmi negara.</em></p>
+                <a href="mailto:admin@mydata.id" class="btn">HUBUNGI ADMIN</a>
+            </div>
+
+            <h2>4. Keamanan</h2>
+            <p>Semua transmisi data dienkripsi menggunakan protokol keamanan standar industri. Data Anda disimpan di server terpercaya dengan perlindungan akses berlapis.</p>
+        </section>
+
+        <footer>
+            &copy; 2026 KAWAL DESA - MYDATA.ID<br>
+            KALIMANTAN BARAT, INDONESIA
+        </footer>
+    </div>
+
+</body>
+</html>
